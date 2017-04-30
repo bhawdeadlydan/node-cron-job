@@ -31,6 +31,7 @@ The jobs have to be declared in a separate module such as:
 exports.first_job = {
     
     after: {                // Configuring this job to run after this period.
+        milliseconds:2, 
         seconds: 2,
         minutes:2,
         hours: 1,
